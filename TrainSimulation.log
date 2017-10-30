@@ -1,0 +1,786 @@
+Starting Log (Before first tick): 
+
+Creating Stations according to config file specifications: 
+Station 1 Location: Stationary at position 1 on TrainRoute 1
+Station 2 Location: Stationary at position 20 on TrainRoute 1
+Station 3 Location: Stationary at position 4 on TrainRoute 1
+Station 4 Location: Stationary at position 15 on TrainRoute 1
+Station 5 Location: Stationary at position 10 on TrainRoute 1
+
+------------------------------------------------------------------
+Creating trains to put on train route: 
+Train 1 at location Inbound at position 1 on TrainRoute 1 with capacity 20
+Train 2 at location Inbound at position 2 on TrainRoute 1 with capacity 15
+Train 3 at location Inbound at position 6 on TrainRoute 1 with capacity 20
+Train 4 at location Inbound at position 10 on TrainRoute 1 with capacity 20
+Train 5 at location Outbound at position 4 on TrainRoute 1 with capacity 10
+Train 6 at location Outbound at position 20 on TrainRoute 1 with capacity 25
+
+------------------------------------------------------------------
+Initial 50 Passengers at randomly generated starting stations: 
+Passenger 1    	: from Inbound at position 20 on TrainRoute 1 to Stationary at position 1 on TrainRoute 1,; start @ 0, board @ -1, end @ -1
+
+Passenger 2    	: from Inbound at position 20 on TrainRoute 1 to Stationary at position 15 on TrainRoute 1,; start @ 0, board @ -1, end @ -1
+
+Passenger 3    	: from Outbound at position 1 on TrainRoute 1 to Stationary at position 10 on TrainRoute 1,; start @ 0, board @ -1, end @ -1
+
+Passenger 4    	: from Outbound at position 1 on TrainRoute 1 to Stationary at position 4 on TrainRoute 1,; start @ 0, board @ -1, end @ -1
+
+Passenger 5    	: from Inbound at position 20 on TrainRoute 1 to Stationary at position 10 on TrainRoute 1,; start @ 0, board @ -1, end @ -1
+
+Passenger 6    	: from Stationary at position 4 on TrainRoute 1 to Stationary at position 4 on TrainRoute 1,; start @ 0, board @ -1, end @ -1
+
+Passenger 7    	: from Outbound at position 1 on TrainRoute 1 to Stationary at position 20 on TrainRoute 1,; start @ 0, board @ -1, end @ -1
+
+Passenger 8    	: from Outbound at position 4 on TrainRoute 1 to Stationary at position 10 on TrainRoute 1,; start @ 0, board @ -1, end @ -1
+
+Passenger 9    	: from Outbound at position 4 on TrainRoute 1 to Stationary at position 15 on TrainRoute 1,; start @ 0, board @ -1, end @ -1
+
+Passenger 10   	: from Inbound at position 4 on TrainRoute 1 to Stationary at position 1 on TrainRoute 1,; start @ 0, board @ -1, end @ -1
+
+Passenger 11   	: from Stationary at position 20 on TrainRoute 1 to Stationary at position 20 on TrainRoute 1,; start @ 0, board @ -1, end @ -1
+
+Passenger 12   	: from Outbound at position 4 on TrainRoute 1 to Stationary at position 20 on TrainRoute 1,; start @ 0, board @ -1, end @ -1
+
+Passenger 13   	: from Outbound at position 15 on TrainRoute 1 to Stationary at position 20 on TrainRoute 1,; start @ 0, board @ -1, end @ -1
+
+Passenger 14   	: from Outbound at position 1 on TrainRoute 1 to Stationary at position 15 on TrainRoute 1,; start @ 0, board @ -1, end @ -1
+
+Passenger 15   	: from Inbound at position 20 on TrainRoute 1 to Stationary at position 10 on TrainRoute 1,; start @ 0, board @ -1, end @ -1
+
+Passenger 16   	: from Inbound at position 10 on TrainRoute 1 to Stationary at position 4 on TrainRoute 1,; start @ 0, board @ -1, end @ -1
+
+Passenger 17   	: from Inbound at position 20 on TrainRoute 1 to Stationary at position 1 on TrainRoute 1,; start @ 0, board @ -1, end @ -1
+
+Passenger 18   	: from Inbound at position 15 on TrainRoute 1 to Stationary at position 1 on TrainRoute 1,; start @ 0, board @ -1, end @ -1
+
+Passenger 19   	: from Outbound at position 4 on TrainRoute 1 to Stationary at position 20 on TrainRoute 1,; start @ 0, board @ -1, end @ -1
+
+Passenger 20   	: from Outbound at position 1 on TrainRoute 1 to Stationary at position 15 on TrainRoute 1,; start @ 0, board @ -1, end @ -1
+
+Passenger 21   	: from Inbound at position 20 on TrainRoute 1 to Stationary at position 4 on TrainRoute 1,; start @ 0, board @ -1, end @ -1
+
+Passenger 22   	: from Outbound at position 10 on TrainRoute 1 to Stationary at position 15 on TrainRoute 1,; start @ 0, board @ -1, end @ -1
+
+Passenger 23   	: from Inbound at position 15 on TrainRoute 1 to Stationary at position 1 on TrainRoute 1,; start @ 0, board @ -1, end @ -1
+
+Passenger 24   	: from Outbound at position 4 on TrainRoute 1 to Stationary at position 20 on TrainRoute 1,; start @ 0, board @ -1, end @ -1
+
+Passenger 25   	: from Outbound at position 1 on TrainRoute 1 to Stationary at position 15 on TrainRoute 1,; start @ 0, board @ -1, end @ -1
+
+Passenger 26   	: from Stationary at position 10 on TrainRoute 1 to Stationary at position 10 on TrainRoute 1,; start @ 0, board @ -1, end @ -1
+
+Passenger 27   	: from Outbound at position 10 on TrainRoute 1 to Stationary at position 15 on TrainRoute 1,; start @ 0, board @ -1, end @ -1
+
+Passenger 28   	: from Outbound at position 1 on TrainRoute 1 to Stationary at position 10 on TrainRoute 1,; start @ 0, board @ -1, end @ -1
+
+Passenger 29   	: from Inbound at position 15 on TrainRoute 1 to Stationary at position 1 on TrainRoute 1,; start @ 0, board @ -1, end @ -1
+
+Passenger 30   	: from Inbound at position 10 on TrainRoute 1 to Stationary at position 4 on TrainRoute 1,; start @ 0, board @ -1, end @ -1
+
+Passenger 31   	: from Inbound at position 10 on TrainRoute 1 to Stationary at position 4 on TrainRoute 1,; start @ 0, board @ -1, end @ -1
+
+Passenger 32   	: from Stationary at position 15 on TrainRoute 1 to Stationary at position 15 on TrainRoute 1,; start @ 0, board @ -1, end @ -1
+
+Passenger 33   	: from Inbound at position 15 on TrainRoute 1 to Stationary at position 10 on TrainRoute 1,; start @ 0, board @ -1, end @ -1
+
+Passenger 34   	: from Outbound at position 1 on TrainRoute 1 to Stationary at position 15 on TrainRoute 1,; start @ 0, board @ -1, end @ -1
+
+Passenger 35   	: from Outbound at position 1 on TrainRoute 1 to Stationary at position 10 on TrainRoute 1,; start @ 0, board @ -1, end @ -1
+
+Passenger 36   	: from Stationary at position 20 on TrainRoute 1 to Stationary at position 20 on TrainRoute 1,; start @ 0, board @ -1, end @ -1
+
+Passenger 37   	: from Outbound at position 15 on TrainRoute 1 to Stationary at position 20 on TrainRoute 1,; start @ 0, board @ -1, end @ -1
+
+Passenger 38   	: from Outbound at position 15 on TrainRoute 1 to Stationary at position 20 on TrainRoute 1,; start @ 0, board @ -1, end @ -1
+
+Passenger 39   	: from Inbound at position 10 on TrainRoute 1 to Stationary at position 4 on TrainRoute 1,; start @ 0, board @ -1, end @ -1
+
+Passenger 40   	: from Inbound at position 4 on TrainRoute 1 to Stationary at position 1 on TrainRoute 1,; start @ 0, board @ -1, end @ -1
+
+Passenger 41   	: from Inbound at position 15 on TrainRoute 1 to Stationary at position 1 on TrainRoute 1,; start @ 0, board @ -1, end @ -1
+
+Passenger 42   	: from Outbound at position 4 on TrainRoute 1 to Stationary at position 10 on TrainRoute 1,; start @ 0, board @ -1, end @ -1
+
+Passenger 43   	: from Outbound at position 1 on TrainRoute 1 to Stationary at position 10 on TrainRoute 1,; start @ 0, board @ -1, end @ -1
+
+Passenger 44   	: from Inbound at position 10 on TrainRoute 1 to Stationary at position 1 on TrainRoute 1,; start @ 0, board @ -1, end @ -1
+
+Passenger 45   	: from Outbound at position 15 on TrainRoute 1 to Stationary at position 20 on TrainRoute 1,; start @ 0, board @ -1, end @ -1
+
+Passenger 46   	: from Outbound at position 4 on TrainRoute 1 to Stationary at position 10 on TrainRoute 1,; start @ 0, board @ -1, end @ -1
+
+Passenger 47   	: from Inbound at position 15 on TrainRoute 1 to Stationary at position 4 on TrainRoute 1,; start @ 0, board @ -1, end @ -1
+
+Passenger 48   	: from Stationary at position 20 on TrainRoute 1 to Stationary at position 20 on TrainRoute 1,; start @ 0, board @ -1, end @ -1
+
+Passenger 49   	: from Outbound at position 1 on TrainRoute 1 to Stationary at position 20 on TrainRoute 1,; start @ 0, board @ -1, end @ -1
+
+Passenger 50   	: from Inbound at position 10 on TrainRoute 1 to Stationary at position 4 on TrainRoute 1,; start @ 0, board @ -1, end @ -1
+
+
+------------------------------------------------------------------
+Current tick is: 0
+------------------------------------------------------------------
+Passenger 3 joins Outbound queue at Station 1
+Passenger 4 joins Outbound queue at Station 1
+Passenger 7 joins Outbound queue at Station 1
+Passenger 14 joins Outbound queue at Station 1
+Passenger 20 joins Outbound queue at Station 1
+Passenger 25 joins Outbound queue at Station 1
+Passenger 28 joins Outbound queue at Station 1
+Passenger 34 joins Outbound queue at Station 1
+Passenger 35 joins Outbound queue at Station 1
+Passenger 43 joins Outbound queue at Station 1
+Passenger 49 joins Outbound queue at Station 1
+Passenger 1 joins Inbound queue at Station 2
+Passenger 2 joins Inbound queue at Station 2
+Passenger 5 joins Inbound queue at Station 2
+Passenger 15 joins Inbound queue at Station 2
+Passenger 17 joins Inbound queue at Station 2
+Passenger 21 joins Inbound queue at Station 2
+Passenger 8 joins Outbound queue at Station 3
+Passenger 9 joins Outbound queue at Station 3
+Passenger 10 joins Inbound queue at Station 3
+Passenger 12 joins Outbound queue at Station 3
+Passenger 19 joins Outbound queue at Station 3
+Passenger 24 joins Outbound queue at Station 3
+Passenger 40 joins Inbound queue at Station 3
+Passenger 42 joins Outbound queue at Station 3
+Passenger 46 joins Outbound queue at Station 3
+Passenger 13 joins Outbound queue at Station 4
+Passenger 18 joins Inbound queue at Station 4
+Passenger 23 joins Inbound queue at Station 4
+Passenger 29 joins Inbound queue at Station 4
+Passenger 33 joins Inbound queue at Station 4
+Passenger 37 joins Outbound queue at Station 4
+Passenger 38 joins Outbound queue at Station 4
+Passenger 41 joins Inbound queue at Station 4
+Passenger 45 joins Outbound queue at Station 4
+Passenger 47 joins Inbound queue at Station 4
+Passenger 16 joins Inbound queue at Station 5
+Passenger 22 joins Outbound queue at Station 5
+Passenger 27 joins Outbound queue at Station 5
+Passenger 30 joins Inbound queue at Station 5
+Passenger 31 joins Inbound queue at Station 5
+Passenger 39 joins Inbound queue at Station 5
+Passenger 44 joins Inbound queue at Station 5
+Passenger 50 joins Inbound queue at Station 5
+Train 1 Inbound at position 1 on TrainRoute 1
+Train 2 Inbound at position 2 on TrainRoute 1
+Train 3 Inbound at position 6 on TrainRoute 1
+Train 4 Inbound at position 10 on TrainRoute 1
+Passenger 16 has boarded train 4
+Train 5 Outbound at position 4 on TrainRoute 1
+Passenger 8 has boarded train 5
+Train 6 Outbound at position 20 on TrainRoute 1
+Current tick is: 1
+------------------------------------------------------------------
+Passenger 51 joins Inbound queue at Station 5
+Train 1 Outbound at position 1 on TrainRoute 1
+Passenger 3 has boarded train 1
+Train 2 Inbound at position 1 on TrainRoute 1
+Train 3 Inbound at position 5 on TrainRoute 1
+Train 4 Inbound at position 9 on TrainRoute 1
+Train 5 Outbound at position 5 on TrainRoute 1
+Train 6 Inbound at position 20 on TrainRoute 1
+Passenger 1 has boarded train 6
+Current tick is: 2
+------------------------------------------------------------------
+Passenger 52 joins Inbound queue at Station 2
+Train 1 Outbound at position 2 on TrainRoute 1
+Train 2 Outbound at position 1 on TrainRoute 1
+Passenger 4 has boarded train 2
+Train 3 Inbound at position 4 on TrainRoute 1
+Passenger 10 has boarded train 3
+Train 4 Inbound at position 8 on TrainRoute 1
+Train 5 Outbound at position 6 on TrainRoute 1
+Train 6 Inbound at position 19 on TrainRoute 1
+Current tick is: 3
+------------------------------------------------------------------
+Passenger 53 joins Inbound queue at Station 5
+Train 1 Outbound at position 3 on TrainRoute 1
+Train 2 Outbound at position 2 on TrainRoute 1
+Train 3 Inbound at position 3 on TrainRoute 1
+Train 4 Inbound at position 7 on TrainRoute 1
+Train 5 Outbound at position 7 on TrainRoute 1
+Train 6 Inbound at position 18 on TrainRoute 1
+Current tick is: 4
+------------------------------------------------------------------
+Passenger 54 joins Inbound queue at Station 5
+Train 1 Outbound at position 4 on TrainRoute 1
+Passenger 9 has boarded train 1
+Train 2 Outbound at position 3 on TrainRoute 1
+Train 3 Inbound at position 2 on TrainRoute 1
+Train 4 Inbound at position 6 on TrainRoute 1
+Train 5 Outbound at position 8 on TrainRoute 1
+Train 6 Inbound at position 17 on TrainRoute 1
+Current tick is: 5
+------------------------------------------------------------------
+Train 1 Outbound at position 5 on TrainRoute 1
+Train 2 Outbound at position 4 on TrainRoute 1
+Passenger 4 has gotten off at Stationary at position 4 on TrainRoute 1
+Results of Passenger 4    	: from Outbound at position 1 on TrainRoute 1 to Stationary at position 4 on TrainRoute 1,; start @ 0, board @ 2, end @ 5
+
+Passenger 12 has boarded train 2
+Train 3 Inbound at position 1 on TrainRoute 1
+Passenger 10 has gotten off at Stationary at position 1 on TrainRoute 1
+Results of Passenger 10   	: from Inbound at position 4 on TrainRoute 1 to Stationary at position 1 on TrainRoute 1,; start @ 0, board @ 2, end @ 5
+
+Train 4 Inbound at position 5 on TrainRoute 1
+Train 5 Outbound at position 9 on TrainRoute 1
+Train 6 Inbound at position 16 on TrainRoute 1
+Current tick is: 6
+------------------------------------------------------------------
+Train 1 Outbound at position 6 on TrainRoute 1
+Train 2 Outbound at position 5 on TrainRoute 1
+Train 3 Outbound at position 1 on TrainRoute 1
+Passenger 7 has boarded train 3
+Train 4 Inbound at position 4 on TrainRoute 1
+Passenger 16 has gotten off at Stationary at position 4 on TrainRoute 1
+Results of Passenger 16   	: from Inbound at position 10 on TrainRoute 1 to Stationary at position 4 on TrainRoute 1,; start @ 0, board @ 0, end @ 6
+
+Passenger 40 has boarded train 4
+Train 5 Outbound at position 10 on TrainRoute 1
+Passenger 8 has gotten off at Stationary at position 10 on TrainRoute 1
+Results of Passenger 8    	: from Outbound at position 4 on TrainRoute 1 to Stationary at position 10 on TrainRoute 1,; start @ 0, board @ 0, end @ 6
+
+Passenger 22 has boarded train 5
+Train 6 Inbound at position 15 on TrainRoute 1
+Passenger 18 has boarded train 6
+Current tick is: 7
+------------------------------------------------------------------
+Passenger 57 joins Inbound queue at Station 4
+Train 1 Outbound at position 7 on TrainRoute 1
+Train 2 Outbound at position 6 on TrainRoute 1
+Train 3 Outbound at position 2 on TrainRoute 1
+Train 4 Inbound at position 3 on TrainRoute 1
+Train 5 Outbound at position 11 on TrainRoute 1
+Train 6 Inbound at position 14 on TrainRoute 1
+Current tick is: 8
+------------------------------------------------------------------
+Passenger 58 joins Inbound queue at Station 3
+Train 1 Outbound at position 8 on TrainRoute 1
+Train 2 Outbound at position 7 on TrainRoute 1
+Train 3 Outbound at position 3 on TrainRoute 1
+Train 4 Inbound at position 2 on TrainRoute 1
+Train 5 Outbound at position 12 on TrainRoute 1
+Train 6 Inbound at position 13 on TrainRoute 1
+Current tick is: 9
+------------------------------------------------------------------
+Passenger 59 joins Inbound queue at Station 2
+Train 1 Outbound at position 9 on TrainRoute 1
+Train 2 Outbound at position 8 on TrainRoute 1
+Train 3 Outbound at position 4 on TrainRoute 1
+Passenger 19 has boarded train 3
+Train 4 Inbound at position 1 on TrainRoute 1
+Passenger 40 has gotten off at Stationary at position 1 on TrainRoute 1
+Results of Passenger 40   	: from Inbound at position 4 on TrainRoute 1 to Stationary at position 1 on TrainRoute 1,; start @ 0, board @ 6, end @ 9
+
+Train 5 Outbound at position 13 on TrainRoute 1
+Train 6 Inbound at position 12 on TrainRoute 1
+Current tick is: 10
+------------------------------------------------------------------
+Passenger 60 joins Outbound queue at Station 1
+Train 1 Outbound at position 10 on TrainRoute 1
+Passenger 3 has gotten off at Stationary at position 10 on TrainRoute 1
+Results of Passenger 3    	: from Outbound at position 1 on TrainRoute 1 to Stationary at position 10 on TrainRoute 1,; start @ 0, board @ 1, end @ 10
+
+Passenger 27 has boarded train 1
+Train 2 Outbound at position 9 on TrainRoute 1
+Train 3 Outbound at position 5 on TrainRoute 1
+Train 4 Outbound at position 1 on TrainRoute 1
+Passenger 14 has boarded train 4
+Train 5 Outbound at position 14 on TrainRoute 1
+Train 6 Inbound at position 11 on TrainRoute 1
+Current tick is: 11
+------------------------------------------------------------------
+Train 1 Outbound at position 11 on TrainRoute 1
+Train 2 Outbound at position 10 on TrainRoute 1
+Train 3 Outbound at position 6 on TrainRoute 1
+Train 4 Outbound at position 2 on TrainRoute 1
+Train 5 Outbound at position 15 on TrainRoute 1
+Passenger 22 has gotten off at Stationary at position 15 on TrainRoute 1
+Results of Passenger 22   	: from Outbound at position 10 on TrainRoute 1 to Stationary at position 15 on TrainRoute 1,; start @ 0, board @ 6, end @ 11
+
+Passenger 13 has boarded train 5
+Train 6 Inbound at position 10 on TrainRoute 1
+Passenger 30 has boarded train 6
+Current tick is: 12
+------------------------------------------------------------------
+Passenger 62 joins Outbound queue at Station 4
+Train 1 Outbound at position 12 on TrainRoute 1
+Train 2 Outbound at position 11 on TrainRoute 1
+Train 3 Outbound at position 7 on TrainRoute 1
+Train 4 Outbound at position 3 on TrainRoute 1
+Train 5 Outbound at position 16 on TrainRoute 1
+Train 6 Inbound at position 9 on TrainRoute 1
+Current tick is: 13
+------------------------------------------------------------------
+Train 1 Outbound at position 13 on TrainRoute 1
+Train 2 Outbound at position 12 on TrainRoute 1
+Train 3 Outbound at position 8 on TrainRoute 1
+Train 4 Outbound at position 4 on TrainRoute 1
+Passenger 24 has boarded train 4
+Train 5 Outbound at position 17 on TrainRoute 1
+Train 6 Inbound at position 8 on TrainRoute 1
+Current tick is: 14
+------------------------------------------------------------------
+Passenger 64 joins Outbound queue at Station 4
+Train 1 Outbound at position 14 on TrainRoute 1
+Train 2 Outbound at position 13 on TrainRoute 1
+Train 3 Outbound at position 9 on TrainRoute 1
+Train 4 Outbound at position 5 on TrainRoute 1
+Train 5 Outbound at position 18 on TrainRoute 1
+Train 6 Inbound at position 7 on TrainRoute 1
+Current tick is: 15
+------------------------------------------------------------------
+Passenger 65 joins Outbound queue at Station 1
+Train 1 Outbound at position 15 on TrainRoute 1
+Passenger 9 has gotten off at Stationary at position 15 on TrainRoute 1
+Results of Passenger 9    	: from Outbound at position 4 on TrainRoute 1 to Stationary at position 15 on TrainRoute 1,; start @ 0, board @ 4, end @ 15
+
+Passenger 27 has gotten off at Stationary at position 15 on TrainRoute 1
+Results of Passenger 27   	: from Outbound at position 10 on TrainRoute 1 to Stationary at position 15 on TrainRoute 1,; start @ 0, board @ 10, end @ 15
+
+Passenger 37 has boarded train 1
+Train 2 Outbound at position 14 on TrainRoute 1
+Train 3 Outbound at position 10 on TrainRoute 1
+Train 4 Outbound at position 6 on TrainRoute 1
+Train 5 Outbound at position 19 on TrainRoute 1
+Train 6 Inbound at position 6 on TrainRoute 1
+Current tick is: 16
+------------------------------------------------------------------
+Passenger 66 joins Outbound queue at Station 3
+Train 1 Outbound at position 16 on TrainRoute 1
+Train 2 Outbound at position 15 on TrainRoute 1
+Passenger 38 has boarded train 2
+Train 3 Outbound at position 11 on TrainRoute 1
+Train 4 Outbound at position 7 on TrainRoute 1
+Train 5 Outbound at position 20 on TrainRoute 1
+Passenger 13 has gotten off at Stationary at position 20 on TrainRoute 1
+Results of Passenger 13   	: from Outbound at position 15 on TrainRoute 1 to Stationary at position 20 on TrainRoute 1,; start @ 0, board @ 11, end @ 16
+
+Train 6 Inbound at position 5 on TrainRoute 1
+Current tick is: 17
+------------------------------------------------------------------
+Train 1 Outbound at position 17 on TrainRoute 1
+Train 2 Outbound at position 16 on TrainRoute 1
+Train 3 Outbound at position 12 on TrainRoute 1
+Train 4 Outbound at position 8 on TrainRoute 1
+Train 5 Inbound at position 20 on TrainRoute 1
+Passenger 2 has boarded train 5
+Train 6 Inbound at position 4 on TrainRoute 1
+Passenger 30 has gotten off at Stationary at position 4 on TrainRoute 1
+Results of Passenger 30   	: from Inbound at position 10 on TrainRoute 1 to Stationary at position 4 on TrainRoute 1,; start @ 0, board @ 11, end @ 17
+
+Passenger 58 has boarded train 6
+Current tick is: 18
+------------------------------------------------------------------
+Train 1 Outbound at position 18 on TrainRoute 1
+Train 2 Outbound at position 17 on TrainRoute 1
+Train 3 Outbound at position 13 on TrainRoute 1
+Train 4 Outbound at position 9 on TrainRoute 1
+Train 5 Inbound at position 19 on TrainRoute 1
+Train 6 Inbound at position 3 on TrainRoute 1
+Current tick is: 19
+------------------------------------------------------------------
+Passenger 69 joins Inbound queue at Station 2
+Train 1 Outbound at position 19 on TrainRoute 1
+Train 2 Outbound at position 18 on TrainRoute 1
+Train 3 Outbound at position 14 on TrainRoute 1
+Train 4 Outbound at position 10 on TrainRoute 1
+Train 5 Inbound at position 18 on TrainRoute 1
+Train 6 Inbound at position 2 on TrainRoute 1
+Current tick is: 20
+------------------------------------------------------------------
+Train 1 Outbound at position 20 on TrainRoute 1
+Passenger 37 has gotten off at Stationary at position 20 on TrainRoute 1
+Results of Passenger 37   	: from Outbound at position 15 on TrainRoute 1 to Stationary at position 20 on TrainRoute 1,; start @ 0, board @ 15, end @ 20
+
+Train 2 Outbound at position 19 on TrainRoute 1
+Train 3 Outbound at position 15 on TrainRoute 1
+Passenger 45 has boarded train 3
+Train 4 Outbound at position 11 on TrainRoute 1
+Train 5 Inbound at position 17 on TrainRoute 1
+Train 6 Inbound at position 1 on TrainRoute 1
+Passenger 1 has gotten off at Stationary at position 1 on TrainRoute 1
+Results of Passenger 1    	: from Inbound at position 20 on TrainRoute 1 to Stationary at position 1 on TrainRoute 1,; start @ 0, board @ 1, end @ 20
+
+Passenger 18 has gotten off at Stationary at position 1 on TrainRoute 1
+Results of Passenger 18   	: from Inbound at position 15 on TrainRoute 1 to Stationary at position 1 on TrainRoute 1,; start @ 0, board @ 6, end @ 20
+
+Passenger 58 has gotten off at Stationary at position 1 on TrainRoute 1
+Results of Passenger 58   	: from Inbound at position 4 on TrainRoute 1 to Stationary at position 1 on TrainRoute 1,; start @ 7, board @ 17, end @ 20
+
+Current tick is: 21
+------------------------------------------------------------------
+Passenger 71 joins Outbound queue at Station 3
+Train 1 Inbound at position 20 on TrainRoute 1
+Passenger 5 has boarded train 1
+Train 2 Outbound at position 20 on TrainRoute 1
+Passenger 12 has gotten off at Stationary at position 20 on TrainRoute 1
+Results of Passenger 12   	: from Outbound at position 4 on TrainRoute 1 to Stationary at position 20 on TrainRoute 1,; start @ 0, board @ 5, end @ 21
+
+Passenger 38 has gotten off at Stationary at position 20 on TrainRoute 1
+Results of Passenger 38   	: from Outbound at position 15 on TrainRoute 1 to Stationary at position 20 on TrainRoute 1,; start @ 0, board @ 16, end @ 21
+
+Train 3 Outbound at position 16 on TrainRoute 1
+Train 4 Outbound at position 12 on TrainRoute 1
+Train 5 Inbound at position 16 on TrainRoute 1
+Train 6 Outbound at position 1 on TrainRoute 1
+Passenger 20 has boarded train 6
+Current tick is: 22
+------------------------------------------------------------------
+Passenger 72 joins Outbound queue at Station 3
+Train 1 Inbound at position 19 on TrainRoute 1
+Train 2 Inbound at position 20 on TrainRoute 1
+Passenger 15 has boarded train 2
+Train 3 Outbound at position 17 on TrainRoute 1
+Train 4 Outbound at position 13 on TrainRoute 1
+Train 5 Inbound at position 15 on TrainRoute 1
+Passenger 2 has gotten off at Stationary at position 15 on TrainRoute 1
+Results of Passenger 2    	: from Inbound at position 20 on TrainRoute 1 to Stationary at position 15 on TrainRoute 1,; start @ 0, board @ 17, end @ 22
+
+Passenger 23 has boarded train 5
+Train 6 Outbound at position 2 on TrainRoute 1
+Current tick is: 23
+------------------------------------------------------------------
+Passenger 73 joins Inbound queue at Station 5
+Train 1 Inbound at position 18 on TrainRoute 1
+Train 2 Inbound at position 19 on TrainRoute 1
+Train 3 Outbound at position 18 on TrainRoute 1
+Train 4 Outbound at position 14 on TrainRoute 1
+Train 5 Inbound at position 14 on TrainRoute 1
+Train 6 Outbound at position 3 on TrainRoute 1
+Current tick is: 24
+------------------------------------------------------------------
+Passenger 74 joins Inbound queue at Station 4
+Train 1 Inbound at position 17 on TrainRoute 1
+Train 2 Inbound at position 18 on TrainRoute 1
+Train 3 Outbound at position 19 on TrainRoute 1
+Train 4 Outbound at position 15 on TrainRoute 1
+Passenger 14 has gotten off at Stationary at position 15 on TrainRoute 1
+Results of Passenger 14   	: from Outbound at position 1 on TrainRoute 1 to Stationary at position 15 on TrainRoute 1,; start @ 0, board @ 10, end @ 24
+
+Passenger 62 has boarded train 4
+Train 5 Inbound at position 13 on TrainRoute 1
+Train 6 Outbound at position 4 on TrainRoute 1
+Passenger 42 has boarded train 6
+Current tick is: 25
+------------------------------------------------------------------
+Passenger 75 joins Outbound queue at Station 1
+Train 1 Inbound at position 16 on TrainRoute 1
+Train 2 Inbound at position 17 on TrainRoute 1
+Train 3 Outbound at position 20 on TrainRoute 1
+Passenger 7 has gotten off at Stationary at position 20 on TrainRoute 1
+Results of Passenger 7    	: from Outbound at position 1 on TrainRoute 1 to Stationary at position 20 on TrainRoute 1,; start @ 0, board @ 6, end @ 25
+
+Passenger 19 has gotten off at Stationary at position 20 on TrainRoute 1
+Results of Passenger 19   	: from Outbound at position 4 on TrainRoute 1 to Stationary at position 20 on TrainRoute 1,; start @ 0, board @ 9, end @ 25
+
+Passenger 45 has gotten off at Stationary at position 20 on TrainRoute 1
+Results of Passenger 45   	: from Outbound at position 15 on TrainRoute 1 to Stationary at position 20 on TrainRoute 1,; start @ 0, board @ 20, end @ 25
+
+Train 4 Outbound at position 16 on TrainRoute 1
+Train 5 Inbound at position 12 on TrainRoute 1
+Train 6 Outbound at position 5 on TrainRoute 1
+Current tick is: 26
+------------------------------------------------------------------
+Passenger 76 joins Inbound queue at Station 3
+Train 1 Inbound at position 15 on TrainRoute 1
+Passenger 29 has boarded train 1
+Train 2 Inbound at position 16 on TrainRoute 1
+Train 3 Inbound at position 20 on TrainRoute 1
+Passenger 17 has boarded train 3
+Train 4 Outbound at position 17 on TrainRoute 1
+Train 5 Inbound at position 11 on TrainRoute 1
+Train 6 Outbound at position 6 on TrainRoute 1
+Current tick is: 27
+------------------------------------------------------------------
+Passenger 77 joins Outbound queue at Station 1
+Train 1 Inbound at position 14 on TrainRoute 1
+Train 2 Inbound at position 15 on TrainRoute 1
+Passenger 33 has boarded train 2
+Train 3 Inbound at position 19 on TrainRoute 1
+Train 4 Outbound at position 18 on TrainRoute 1
+Train 5 Inbound at position 10 on TrainRoute 1
+Passenger 31 has boarded train 5
+Train 6 Outbound at position 7 on TrainRoute 1
+Current tick is: 28
+------------------------------------------------------------------
+Passenger 78 joins Outbound queue at Station 3
+Train 1 Inbound at position 13 on TrainRoute 1
+Train 2 Inbound at position 14 on TrainRoute 1
+Train 3 Inbound at position 18 on TrainRoute 1
+Train 4 Outbound at position 19 on TrainRoute 1
+Train 5 Inbound at position 9 on TrainRoute 1
+Train 6 Outbound at position 8 on TrainRoute 1
+Current tick is: 29
+------------------------------------------------------------------
+Passenger 79 joins Outbound queue at Station 1
+Train 1 Inbound at position 12 on TrainRoute 1
+Train 2 Inbound at position 13 on TrainRoute 1
+Train 3 Inbound at position 17 on TrainRoute 1
+Train 4 Outbound at position 20 on TrainRoute 1
+Passenger 24 has gotten off at Stationary at position 20 on TrainRoute 1
+Results of Passenger 24   	: from Outbound at position 4 on TrainRoute 1 to Stationary at position 20 on TrainRoute 1,; start @ 0, board @ 13, end @ 29
+
+Passenger 62 has gotten off at Stationary at position 20 on TrainRoute 1
+Results of Passenger 62   	: from Outbound at position 15 on TrainRoute 1 to Stationary at position 20 on TrainRoute 1,; start @ 11, board @ 24, end @ 29
+
+Train 5 Inbound at position 8 on TrainRoute 1
+Train 6 Outbound at position 9 on TrainRoute 1
+Current tick is: 30
+------------------------------------------------------------------
+Passenger 80 joins Outbound queue at Station 1
+Train 1 Inbound at position 11 on TrainRoute 1
+Train 2 Inbound at position 12 on TrainRoute 1
+Train 3 Inbound at position 16 on TrainRoute 1
+Train 4 Inbound at position 20 on TrainRoute 1
+Passenger 21 has boarded train 4
+Train 5 Inbound at position 7 on TrainRoute 1
+Train 6 Outbound at position 10 on TrainRoute 1
+Passenger 42 has gotten off at Stationary at position 10 on TrainRoute 1
+Results of Passenger 42   	: from Outbound at position 4 on TrainRoute 1 to Stationary at position 10 on TrainRoute 1,; start @ 0, board @ 24, end @ 30
+
+Current tick is: 31
+------------------------------------------------------------------
+Train 1 Inbound at position 10 on TrainRoute 1
+Passenger 5 has gotten off at Stationary at position 10 on TrainRoute 1
+Results of Passenger 5    	: from Inbound at position 20 on TrainRoute 1 to Stationary at position 10 on TrainRoute 1,; start @ 0, board @ 21, end @ 31
+
+Passenger 39 has boarded train 1
+Train 2 Inbound at position 11 on TrainRoute 1
+Train 3 Inbound at position 15 on TrainRoute 1
+Passenger 41 has boarded train 3
+Train 4 Inbound at position 19 on TrainRoute 1
+Train 5 Inbound at position 6 on TrainRoute 1
+Train 6 Outbound at position 11 on TrainRoute 1
+Current tick is: 32
+------------------------------------------------------------------
+Passenger 82 joins Outbound queue at Station 1
+Train 1 Inbound at position 9 on TrainRoute 1
+Train 2 Inbound at position 10 on TrainRoute 1
+Passenger 15 has gotten off at Stationary at position 10 on TrainRoute 1
+Results of Passenger 15   	: from Inbound at position 20 on TrainRoute 1 to Stationary at position 10 on TrainRoute 1,; start @ 0, board @ 22, end @ 32
+
+Passenger 33 has gotten off at Stationary at position 10 on TrainRoute 1
+Results of Passenger 33   	: from Inbound at position 15 on TrainRoute 1 to Stationary at position 10 on TrainRoute 1,; start @ 0, board @ 27, end @ 32
+
+Passenger 44 has boarded train 2
+Train 3 Inbound at position 14 on TrainRoute 1
+Train 4 Inbound at position 18 on TrainRoute 1
+Train 5 Inbound at position 5 on TrainRoute 1
+Train 6 Outbound at position 12 on TrainRoute 1
+Current tick is: 33
+------------------------------------------------------------------
+Passenger 83 joins Inbound queue at Station 2
+Train 1 Inbound at position 8 on TrainRoute 1
+Train 2 Inbound at position 9 on TrainRoute 1
+Train 3 Inbound at position 13 on TrainRoute 1
+Train 4 Inbound at position 17 on TrainRoute 1
+Train 5 Inbound at position 4 on TrainRoute 1
+Passenger 31 has gotten off at Stationary at position 4 on TrainRoute 1
+Results of Passenger 31   	: from Inbound at position 10 on TrainRoute 1 to Stationary at position 4 on TrainRoute 1,; start @ 0, board @ 27, end @ 33
+
+Passenger 76 has boarded train 5
+Train 6 Outbound at position 13 on TrainRoute 1
+Current tick is: 34
+------------------------------------------------------------------
+Passenger 84 joins Outbound queue at Station 5
+Train 1 Inbound at position 7 on TrainRoute 1
+Train 2 Inbound at position 8 on TrainRoute 1
+Train 3 Inbound at position 12 on TrainRoute 1
+Train 4 Inbound at position 16 on TrainRoute 1
+Train 5 Inbound at position 3 on TrainRoute 1
+Train 6 Outbound at position 14 on TrainRoute 1
+Current tick is: 35
+------------------------------------------------------------------
+Passenger 85 joins Inbound queue at Station 4
+Train 1 Inbound at position 6 on TrainRoute 1
+Train 2 Inbound at position 7 on TrainRoute 1
+Train 3 Inbound at position 11 on TrainRoute 1
+Train 4 Inbound at position 15 on TrainRoute 1
+Passenger 47 has boarded train 4
+Train 5 Inbound at position 2 on TrainRoute 1
+Train 6 Outbound at position 15 on TrainRoute 1
+Passenger 20 has gotten off at Stationary at position 15 on TrainRoute 1
+Results of Passenger 20   	: from Outbound at position 1 on TrainRoute 1 to Stationary at position 15 on TrainRoute 1,; start @ 0, board @ 21, end @ 35
+
+Passenger 64 has boarded train 6
+Current tick is: 36
+------------------------------------------------------------------
+Passenger 86 joins Inbound queue at Station 4
+Train 1 Inbound at position 5 on TrainRoute 1
+Train 2 Inbound at position 6 on TrainRoute 1
+Train 3 Inbound at position 10 on TrainRoute 1
+Passenger 50 has boarded train 3
+Train 4 Inbound at position 14 on TrainRoute 1
+Train 5 Inbound at position 1 on TrainRoute 1
+Passenger 23 has gotten off at Stationary at position 1 on TrainRoute 1
+Results of Passenger 23   	: from Inbound at position 15 on TrainRoute 1 to Stationary at position 1 on TrainRoute 1,; start @ 0, board @ 22, end @ 36
+
+Passenger 76 has gotten off at Stationary at position 1 on TrainRoute 1
+Results of Passenger 76   	: from Inbound at position 4 on TrainRoute 1 to Stationary at position 1 on TrainRoute 1,; start @ 25, board @ 33, end @ 36
+
+Train 6 Outbound at position 16 on TrainRoute 1
+Current tick is: 37
+------------------------------------------------------------------
+Passenger 87 joins Inbound queue at Station 4
+Train 1 Inbound at position 4 on TrainRoute 1
+Passenger 39 has gotten off at Stationary at position 4 on TrainRoute 1
+Results of Passenger 39   	: from Inbound at position 10 on TrainRoute 1 to Stationary at position 4 on TrainRoute 1,; start @ 0, board @ 31, end @ 37
+
+Train 2 Inbound at position 5 on TrainRoute 1
+Train 3 Inbound at position 9 on TrainRoute 1
+Train 4 Inbound at position 13 on TrainRoute 1
+Train 5 Outbound at position 1 on TrainRoute 1
+Passenger 25 has boarded train 5
+Train 6 Outbound at position 17 on TrainRoute 1
+Current tick is: 38
+------------------------------------------------------------------
+Passenger 88 joins Inbound queue at Station 4
+Train 1 Inbound at position 3 on TrainRoute 1
+Train 2 Inbound at position 4 on TrainRoute 1
+Train 3 Inbound at position 8 on TrainRoute 1
+Train 4 Inbound at position 12 on TrainRoute 1
+Train 5 Outbound at position 2 on TrainRoute 1
+Train 6 Outbound at position 18 on TrainRoute 1
+Current tick is: 39
+------------------------------------------------------------------
+Passenger 89 joins Inbound queue at Station 5
+Train 1 Inbound at position 2 on TrainRoute 1
+Train 2 Inbound at position 3 on TrainRoute 1
+Train 3 Inbound at position 7 on TrainRoute 1
+Train 4 Inbound at position 11 on TrainRoute 1
+Train 5 Outbound at position 3 on TrainRoute 1
+Train 6 Outbound at position 19 on TrainRoute 1
+Current tick is: 40
+------------------------------------------------------------------
+Passenger 90 joins Inbound queue at Station 2
+Train 1 Inbound at position 1 on TrainRoute 1
+Passenger 29 has gotten off at Stationary at position 1 on TrainRoute 1
+Results of Passenger 29   	: from Inbound at position 15 on TrainRoute 1 to Stationary at position 1 on TrainRoute 1,; start @ 0, board @ 26, end @ 40
+
+Train 2 Inbound at position 2 on TrainRoute 1
+Train 3 Inbound at position 6 on TrainRoute 1
+Train 4 Inbound at position 10 on TrainRoute 1
+Passenger 51 has boarded train 4
+Train 5 Outbound at position 4 on TrainRoute 1
+Passenger 46 has boarded train 5
+Train 6 Outbound at position 20 on TrainRoute 1
+Passenger 64 has gotten off at Stationary at position 20 on TrainRoute 1
+Results of Passenger 64   	: from Outbound at position 15 on TrainRoute 1 to Stationary at position 20 on TrainRoute 1,; start @ 13, board @ 35, end @ 40
+
+Current tick is: 41
+------------------------------------------------------------------
+Passenger 91 joins Outbound queue at Station 5
+Train 1 Outbound at position 1 on TrainRoute 1
+Passenger 28 has boarded train 1
+Train 2 Inbound at position 1 on TrainRoute 1
+Passenger 44 has gotten off at Stationary at position 1 on TrainRoute 1
+Results of Passenger 44   	: from Inbound at position 10 on TrainRoute 1 to Stationary at position 1 on TrainRoute 1,; start @ 0, board @ 32, end @ 41
+
+Train 3 Inbound at position 5 on TrainRoute 1
+Train 4 Inbound at position 9 on TrainRoute 1
+Train 5 Outbound at position 5 on TrainRoute 1
+Train 6 Inbound at position 20 on TrainRoute 1
+Passenger 52 has boarded train 6
+Current tick is: 42
+------------------------------------------------------------------
+Passenger 92 joins Inbound queue at Station 4
+Train 1 Outbound at position 2 on TrainRoute 1
+Train 2 Outbound at position 1 on TrainRoute 1
+Passenger 34 has boarded train 2
+Train 3 Inbound at position 4 on TrainRoute 1
+Passenger 50 has gotten off at Stationary at position 4 on TrainRoute 1
+Results of Passenger 50   	: from Inbound at position 10 on TrainRoute 1 to Stationary at position 4 on TrainRoute 1,; start @ 0, board @ 36, end @ 42
+
+Train 4 Inbound at position 8 on TrainRoute 1
+Train 5 Outbound at position 6 on TrainRoute 1
+Train 6 Inbound at position 19 on TrainRoute 1
+Current tick is: 43
+------------------------------------------------------------------
+Passenger 93 joins Inbound queue at Station 2
+Train 1 Outbound at position 3 on TrainRoute 1
+Train 2 Outbound at position 2 on TrainRoute 1
+Train 3 Inbound at position 3 on TrainRoute 1
+Train 4 Inbound at position 7 on TrainRoute 1
+Train 5 Outbound at position 7 on TrainRoute 1
+Train 6 Inbound at position 18 on TrainRoute 1
+Current tick is: 44
+------------------------------------------------------------------
+Passenger 94 joins Outbound queue at Station 3
+Train 1 Outbound at position 4 on TrainRoute 1
+Passenger 66 has boarded train 1
+Train 2 Outbound at position 3 on TrainRoute 1
+Train 3 Inbound at position 2 on TrainRoute 1
+Train 4 Inbound at position 6 on TrainRoute 1
+Train 5 Outbound at position 8 on TrainRoute 1
+Train 6 Inbound at position 17 on TrainRoute 1
+Current tick is: 45
+------------------------------------------------------------------
+Passenger 95 joins Outbound queue at Station 3
+Train 1 Outbound at position 5 on TrainRoute 1
+Train 2 Outbound at position 4 on TrainRoute 1
+Passenger 71 has boarded train 2
+Train 3 Inbound at position 1 on TrainRoute 1
+Passenger 17 has gotten off at Stationary at position 1 on TrainRoute 1
+Results of Passenger 17   	: from Inbound at position 20 on TrainRoute 1 to Stationary at position 1 on TrainRoute 1,; start @ 0, board @ 26, end @ 45
+
+Passenger 41 has gotten off at Stationary at position 1 on TrainRoute 1
+Results of Passenger 41   	: from Inbound at position 15 on TrainRoute 1 to Stationary at position 1 on TrainRoute 1,; start @ 0, board @ 31, end @ 45
+
+Train 4 Inbound at position 5 on TrainRoute 1
+Train 5 Outbound at position 9 on TrainRoute 1
+Train 6 Inbound at position 16 on TrainRoute 1
+Current tick is: 46
+------------------------------------------------------------------
+Train 1 Outbound at position 6 on TrainRoute 1
+Train 2 Outbound at position 5 on TrainRoute 1
+Train 3 Outbound at position 1 on TrainRoute 1
+Passenger 35 has boarded train 3
+Train 4 Inbound at position 4 on TrainRoute 1
+Passenger 21 has gotten off at Stationary at position 4 on TrainRoute 1
+Results of Passenger 21   	: from Inbound at position 20 on TrainRoute 1 to Stationary at position 4 on TrainRoute 1,; start @ 0, board @ 30, end @ 46
+
+Passenger 47 has gotten off at Stationary at position 4 on TrainRoute 1
+Results of Passenger 47   	: from Inbound at position 15 on TrainRoute 1 to Stationary at position 4 on TrainRoute 1,; start @ 0, board @ 35, end @ 46
+
+Train 5 Outbound at position 10 on TrainRoute 1
+Passenger 46 has gotten off at Stationary at position 10 on TrainRoute 1
+Results of Passenger 46   	: from Outbound at position 4 on TrainRoute 1 to Stationary at position 10 on TrainRoute 1,; start @ 0, board @ 40, end @ 46
+
+Passenger 84 has boarded train 5
+Train 6 Inbound at position 15 on TrainRoute 1
+Passenger 57 has boarded train 6
+Current tick is: 47
+------------------------------------------------------------------
+Train 1 Outbound at position 7 on TrainRoute 1
+Train 2 Outbound at position 6 on TrainRoute 1
+Train 3 Outbound at position 2 on TrainRoute 1
+Train 4 Inbound at position 3 on TrainRoute 1
+Train 5 Outbound at position 11 on TrainRoute 1
+Train 6 Inbound at position 14 on TrainRoute 1
+Current tick is: 48
+------------------------------------------------------------------
+Train 1 Outbound at position 8 on TrainRoute 1
+Train 2 Outbound at position 7 on TrainRoute 1
+Train 3 Outbound at position 3 on TrainRoute 1
+Train 4 Inbound at position 2 on TrainRoute 1
+Train 5 Outbound at position 12 on TrainRoute 1
+Train 6 Inbound at position 13 on TrainRoute 1
+Current tick is: 49
+------------------------------------------------------------------
+Passenger 99 joins Outbound queue at Station 3
+Train 1 Outbound at position 9 on TrainRoute 1
+Train 2 Outbound at position 8 on TrainRoute 1
+Train 3 Outbound at position 4 on TrainRoute 1
+Passenger 72 has boarded train 3
+Train 4 Inbound at position 1 on TrainRoute 1
+Passenger 51 has gotten off at Stationary at position 1 on TrainRoute 1
+Results of Passenger 51   	: from Inbound at position 10 on TrainRoute 1 to Stationary at position 1 on TrainRoute 1,; start @ 0, board @ 40, end @ 49
+
+Train 5 Outbound at position 13 on TrainRoute 1
+Train 6 Inbound at position 12 on TrainRoute 1
